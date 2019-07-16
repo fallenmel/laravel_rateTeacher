@@ -18,4 +18,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'TeacherController@index')->name('home');
-
+Route::post('formSubmit','TeacherController@formSubmit');
+Route::post('formSubmitUpdate','TeacherController@formSubmitUpdate');

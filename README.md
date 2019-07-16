@@ -1,2 +1,6 @@
+composer install
+npm install
+
+
 migration
-php aritsan migrate:refresh --seed
+php artisan migrate:refresh --seed
